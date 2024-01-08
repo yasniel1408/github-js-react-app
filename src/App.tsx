@@ -5,6 +5,7 @@ import './App.css'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
 import {sayHello} from "@yasniel1408/github-js-lib"
+import {HelloWorld} from "@yasniel1408/hello-world/index.ts"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,8 +24,10 @@ useEffect(() => {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
+        <HelloWorld>
+            <h1>Vite + React</h1>
+        </HelloWorld>
+        <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
