@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@yasniel1408/github-js-lib": "^1.0.1",
-    "@yasniel1408/hello-world": "^0.0.5",
+    "@yasniel1408/hello-world": "^0.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
